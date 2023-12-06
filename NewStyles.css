@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -19,16 +21,37 @@ body {
     width: 63%;
     height: 100%;
     border: 1px black solid;
+    display: flex;
+    flex-direction: column;
 }
 
 .blackSideBars {
     width: 7%;
 }
 
-body > div > div {
+.logoContainer {
     width: 100%;
     height: 15%;
     border: black solid 1px;
     position: relative ;
     top: 25%; 
+}
+
+
+.p1 {
+    border: 1px black solid; 
+    height: 40%;
+
+}
+
+
+.p2 {
+    border: 1px black solid; 
+    height: 30%;
+}
+
+.p3 {
+    border: 1px black solid; 
+    height: 30%;
+
 }
