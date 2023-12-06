@@ -9,13 +9,18 @@ body {
 }
 
 .mainContainer1 {
-    width: 30%;
+    width: 25%;
     height: 100%;
     border: 1px black solid;
 }
 
 .mainContainer2 {
-    width: 70%;
+    width: 63%;
     height: 100%;
     border: 1px black solid;
+}
+
+.blackSideBars {
+    width: 7%;
+
 }
