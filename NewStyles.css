@@ -36,6 +36,13 @@ body {
     position: relative ;
     top: 25%; 
     background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 4rem;
+    
+
 }
 
 
