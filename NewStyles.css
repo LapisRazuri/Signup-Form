@@ -15,6 +15,7 @@ body {
     width: 25%;
     height: 100%;
     border: 1px black solid;
+   
 }
 
 .mainContainer2 {
@@ -35,12 +36,13 @@ body {
     border: black solid 1px;
     position: relative ;
     top: 25%; 
-    background: black;
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;
     color: aliceblue;
     font-size: 4rem;
+    
     
 
 }
