@@ -25,8 +25,7 @@ body {
     width: 63%;
     height: 100%;
     border: 1px black solid;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .blackSideBars {
@@ -46,15 +45,21 @@ body {
     color: aliceblue;
     font-size: 4rem;
     font-family: 'Whisper', cursive;
-    
-    
 
 }
 
 
 .p1 {
     border: 1px black solid; 
+    width: 90%;
     height: 40%;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    font-size: 1.5rem;
+    
+
+
 
 }
 
@@ -87,4 +92,10 @@ img {
     top: -15%;
     left: 25%;
     
+}
+
+
+.p1span {
+    line-height: 500%;
+
 }
