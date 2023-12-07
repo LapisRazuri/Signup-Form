@@ -74,3 +74,17 @@ img {
     width: 120px;
     height: 130px;
 }
+
+.underline {
+    text-decoration: underline;
+    
+}
+
+
+.credit {
+    color: gray;
+    position: relative;
+    top: -15%;
+    left: 25%;
+    
+}
