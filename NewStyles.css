@@ -115,9 +115,26 @@ input {
     
 }
 
+label {
+    border: none;
+    
+}
+
+
+input {
+    border: 1px solid gray ;
+    border-radius: 10px;
+    
+}
+
 
 form {
     display: flex;
     justify-content: space-around;
-    line-height: 4;
+    
+}
+
+
+.p2 > form > div > div {
+    line-height: 3;
 }
