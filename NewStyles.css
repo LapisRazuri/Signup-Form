@@ -119,4 +119,5 @@ input {
 form {
     display: flex;
     justify-content: space-around;
+    line-height: 4;
 }
