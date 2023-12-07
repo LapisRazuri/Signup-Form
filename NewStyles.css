@@ -49,14 +49,15 @@ body {
 }
 
 
-.p1 {
-    border: 1px black solid; 
+.p1 { 
     width: 90%;
     height: 40%;
     position: relative;
     top: 20%;
     left: 5%;
     font-size: 1.5rem;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Whisper', cursive;
     
 
 
