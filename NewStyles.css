@@ -176,3 +176,9 @@ input:invalid {
     font-family: 'Ephesis', cursive;
     font-family: 'Whisper', cursive;
 }
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
