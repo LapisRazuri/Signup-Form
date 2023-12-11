@@ -81,6 +81,8 @@ body {
 .p3 {
     /* border: 1px black solid;  */
     height: 30%;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Whisper', cursive;
     
 
 }
@@ -101,6 +103,8 @@ img {
     position: relative;
     top: -15%;
     left: 25%;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Whisper', cursive;
     
 }
 
@@ -168,3 +172,7 @@ input:invalid {
     margin-left: 15%;
 }
 
+#btn {
+    font-family: 'Ephesis', cursive;
+    font-family: 'Whisper', cursive;
+}
