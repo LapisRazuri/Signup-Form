@@ -145,3 +145,15 @@ form {
 input:invalid {
     border-color: red;
 }
+
+.errorMessage {
+    line-height: 1;
+    color: red;
+    visibility: hidden;
+}
+
+.errorMessageVisible {
+    line-height: 1;
+    color: red;
+    visibility: visible;
+}

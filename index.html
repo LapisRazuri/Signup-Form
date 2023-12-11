@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Whisper&display=swap" rel="stylesheet">
-        <script src="script.js" defer></script>
+        <script src="NewScript.js" defer></script>
         <title>Document</title>
     </head>
     <body>
@@ -46,9 +46,9 @@
                             <input type="email" id="user_email" name="user_email" placeholder="taroyamada@example.com"><br>
                         </div>
 
-                        <div>
+                        <div class="passwordContainer">
                             <label for="user_password">Password</label><br>
-                            <input type="password" id="user_password" name="user_password" min="7" max="12" placeholder="jshei837h1pk" pattern="[0-9a-zA-Z]{7,12}" required><br>
+                            <input id="password" type="password" id="user_password" name="user_password" min="7" max="12" placeholder="jshei837h1pk" pattern="[0-9a-zA-Z]{7,12}"  required><br>                          
                         </div>
                     </div>
                     
@@ -66,7 +66,7 @@
   
                         <div>
                             <label for="confirm_user_password">Confirm Password</label><br>
-                            <input type="password" id="user_password" name="confirm_user_password" min="7" max="12" placeholder="jshei837h1pk" pattern="[0-9a-zA-Z]{7,12}" required>
+                            <input id="passwordConfirm" type="password" id="user_password" name="confirm_user_password" min="7" max="12" placeholder="jshei837h1pk" pattern="[0-9a-zA-Z]{7,12}"  required>
                         </div>
                     </div>
 
@@ -74,7 +74,7 @@
             </div>
 
             <p class="p3">
-                <button>Create Account</button>
+                <button id="btn">Create Account</button>
                 <span>Already have an account? Log in</span>
             </p>
 
