@@ -9,8 +9,6 @@ passwordContainer[0].appendChild(errorMessage);
 
 errorMessage.className = "errorMessage"
 
-errorMessage.textContent = "* A password has to be mix of alphabets (not case-sensitive) and numbers, and total 7~12 words"
-
 
 btn.addEventListener('click', function () {
     let passwordValue = password.value;
@@ -22,18 +20,17 @@ btn.addEventListener('click', function () {
         errorMessage.textContent = "* Password does not match"
     }
 
-    else if ( passwordValue.length > 6 && passwordValue.length < 13) { 
-        console.log("Hurray")
         
-    }
-    
-   
-    
-    else {
+    else if ( passwordValue.length < 7 || passwordValue.length > 12){
         errorMessage.className = "errorMessageVisible"
+        errorMessage.textContent = "* Mix alphabets (not case-sensitive), and numbers.Total 7~12 words"
         console.log("Hello World")
         console.log("Good Night")
-    
+    }
+
+    else { 
+        console.log("Hurray")
+        
     }
 
 })
