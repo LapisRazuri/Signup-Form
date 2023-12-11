@@ -68,6 +68,11 @@ body {
     font-family: 'Ephesis', cursive;
     font-family: 'Whisper', cursive;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    margin-left: 5%;
+
     
 }
 
@@ -132,12 +137,14 @@ input {
 form {
     display: flex;
     justify-content: space-around;
-    
+    border: 1px black solid;
 }
 
 
 .p2 > form > div > div {
-    line-height: 3;
+    line-height: 2;
+    border: 1px black solid;
+    
 }
 
 
@@ -149,5 +156,11 @@ input:invalid {
 .errorMessage {
     line-height: 1;
     color: red;
+    border: 1px black solid;
+
 }
 
+
+.passwordContainer {
+    margin-left: 15%;
+}
