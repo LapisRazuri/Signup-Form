@@ -14,7 +14,7 @@ body {
 .mainContainer1 {
     width: 25%;
     height: 100%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     background: url(pictures/PhotobyJLeeonUnsplash.jpg) 5% -5%;
     background-size: 105% 71.5%;
     
@@ -24,7 +24,7 @@ body {
 .mainContainer2 {
     width: 63%;
     height: 100%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     background-color: rgba(0, 0, 0, 0.7)
     
 }
@@ -59,7 +59,6 @@ body {
     font-size: 1.5rem;
     font-family: 'Ephesis', cursive;
     font-family: 'Whisper', cursive;
-    color: aliceblue;
     
 }
 
@@ -72,7 +71,7 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     padding-left: 5%;
     background-color: #E5E7EB;
 
@@ -80,9 +79,8 @@ body {
 }
 
 .p3 {
-    border: 1px black solid; 
+    /* border: 1px black solid;  */
     height: 30%;
-    color: aliceblue;
     
 
 }
@@ -114,7 +112,7 @@ img {
 
 label,
 input {
-    border: 1px black solid;
+    /* border: 1px black solid; */
     position: relative;
     left: 5%;
     font-family: inherit;
@@ -142,13 +140,13 @@ input {
 form {
     display: flex;
     justify-content: space-around;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 
 .p2 > form > div > div {
     line-height: 2;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     
 }
 
@@ -161,7 +159,7 @@ input:invalid {
 .errorMessage {
     line-height: 1;
     color: red;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 
 }
 
