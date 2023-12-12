@@ -5,6 +5,9 @@
     --maincontainer2-height:100%;
     --blackSideBars-width: 7%;
     --blackSideBars-height: 100%;
+    --logoContainer-width: 100%;
+    --logoContainer-height: 15%;
+    --image-size: 15%;
     
 }
 
@@ -16,24 +19,24 @@
 }
 
 body {
-    width: min(100vw, 100%);
-    height: min(100vh, 100%);
+    width: 100vw;
+    height: 100vh;
     display: flex;  
     overflow: hidden; 
 }
 
 .mainContainer1 {
-    width: min(50px, 100vw - (var(--maincontainer2-width) + var(--blackSideBars-width*2 )));
+    width: max(50px, 100vw - (var(--maincontainer2-width) + var(--blackSideBars-width*2 )));
     height: 100%;
     /* border: 1px black solid; */
     background: url(pictures/PhotobyJLeeonUnsplash.jpg) 5% -5%;
     background-size: 105% 71.5%;
-    
+    font-size: 1rem;
    
 }
 
 .mainContainer2 {
-    width: min(63%, 100vw - (var(--maincontainer1-width) + var(--blackSideBars-width*2 )));
+    width: max(63%, 100vw - (var(--maincontainer1-width) + var(--blackSideBars-width*2 )));
     height: 100%;
     /* border: 1px black solid; */
     background-color: rgba(0, 0, 0, 0.7)
@@ -41,11 +44,11 @@ body {
 }
 
 .blackSideBars {
-    width: min(7%, (100vw - (var(--maincontainer2-width) + var(--maincontainer1-width)))/2);
+    width: max(7%, (100vw - (var(--maincontainer2-width) + var(--maincontainer1-width)))/2);
 }
 
 .logoContainer {
-    width: 100%;
+    width: max(100%, 100vw - (var(--maincontainer2-width) + var(--blackSideBars-width*2 )));
     height: 15%;
     border: black solid 1px;
     position: relative ;
@@ -55,9 +58,13 @@ body {
     align-items: center;
     justify-content: center;
     color: aliceblue;
-    font-size: 4rem;
     font-family: 'Whisper', cursive;
+    
 
+}
+
+.odinText {
+    font-size: 4em;
 }
 
 
@@ -99,8 +106,8 @@ body {
 }
 
 img {
-    width: 120px;
-    height: 130px;
+    width: max(120px, 15%);
+    height: 80%;
 }
 
 .underline {
