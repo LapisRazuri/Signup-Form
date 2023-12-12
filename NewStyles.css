@@ -1,3 +1,14 @@
+:root {
+    --maincontainer1-width: 25%;
+    --maincontainer1-height: 100%;
+    --maincontainer2-width: 63%;
+    --maincontainer2-height:100%;
+    --blackSideBars-width: 7%;
+    --blackSideBars-height: 100%;
+    
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,14 +16,14 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    width: min(100vw, 100%);
+    height: min(100vh, 100%);
     display: flex;  
     overflow: hidden; 
 }
 
 .mainContainer1 {
-    width: 25%;
+    width: min(50px, 100vw - (var(--maincontainer2-width) + var(--blackSideBars-width*2 )));
     height: 100%;
     /* border: 1px black solid; */
     background: url(pictures/PhotobyJLeeonUnsplash.jpg) 5% -5%;
@@ -22,7 +33,7 @@ body {
 }
 
 .mainContainer2 {
-    width: 63%;
+    width: min(63%, 100vw - (var(--maincontainer1-width) + var(--blackSideBars-width*2 )));
     height: 100%;
     /* border: 1px black solid; */
     background-color: rgba(0, 0, 0, 0.7)
@@ -30,7 +41,7 @@ body {
 }
 
 .blackSideBars {
-    width: 7%;
+    width: min(7%, (100vw - (var(--maincontainer2-width) + var(--maincontainer1-width)))/2);
 }
 
 .logoContainer {
